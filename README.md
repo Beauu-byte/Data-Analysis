@@ -1,61 +1,58 @@
-🛒 Superstore Data Analysis Project
-📊 Overview
-This project involves data analysis on the Superstore Sales Dataset, aiming to uncover key business insights through exploratory data analysis (EDA) and visualizations. The objective is to understand sales trends, regional performance, customer behavior, and product-level performance to help improve strategic decision-making.
+# 📊 Data Analysis Projects
 
-📁 Dataset
-Source: Sample Superstore dataset (often used in Tableau, Kaggle, or public repositories)
+Welcome to my personal data analysis portfolio!  
+This repository contains hands-on projects where I explore, analyze, and visualize real-world datasets using Python and data science tools.
 
-Columns include: Order Date, Ship Date, Sales, Profit, Category, Sub-Category, Region, Segment, and more.
+---
 
-Size: ~10,000+ rows
+## 🧠 About Me
 
-🧰 Tools & Technologies Used
-Python 🐍
+I'm a recent graduate and aspiring data analyst, passionate about uncovering insights from data.  
+Each week, I challenge myself to complete **1–2 analysis projects**, exploring different domains such as retail, sports, and entertainment.
 
-pandas for data manipulation
+---
 
-matplotlib & seaborn for data visualization
+## 📂 Projects in This Repo
 
-numpy for numerical operations
+### 1. 🛒 Superstore Sales Analysis
+- Dataset: Sample Superstore (Excel)
+- Tools: Pandas, Seaborn, Matplotlib
+- Summary:
+  - Explored regional sales, shipping delays, and category-wise profits
+  - Created actionable visuals and insights for business decisions
 
-Jupyter Notebook for interactive exploration
+📄 [View Notebook](./superstore-analysis.ipynb)
 
-🔍 Key Analysis Performed
-Data Cleaning & Preparation
+---
 
-Removed duplicates and handled missing values
+### 2. ⚽ European Football Analysis (2008–2016)
+- Dataset: Kaggle - European Soccer Database (`.sqlite`)
+- Tools: Pandas, SQLite3, Seaborn, Matplotlib
+- Summary:
+  - Analyzed average goals per match by season
+  - Identified top 5 scoring teams per year
+  - Visualized goal-scoring trends across 8 seasons
 
-Converted date columns to datetime objects
+📄 [View Notebook](./football-analysis.ipynb)
 
-Created new features like month/year from dates
+---
 
-Exploratory Data Analysis (EDA)
+## 🧰 Tools & Technologies
 
-Sales vs. Profit trends over time
+- Python (Pandas, NumPy)
+- SQLite / SQL
+- Matplotlib & Seaborn
+- Jupyter Notebook / Google Colab
 
-Top-performing and loss-making products
+---
 
-Regional analysis of sales and profits
+## 🗓️ Project Goal
 
-Segment-wise and category-wise performance
+I aim to strengthen my practical data analysis skills and build a strong public portfolio by:
+- Working with different types of datasets
+- Communicating insights visually
+- Practicing storytelling with data
 
-Shipping mode and delivery time analysis
+---
 
-Visualizations
-
-Line plots for sales trends
-
-Heatmaps for correlation
-
-Bar plots for regional/category performance
-
-Pie charts for segment distribution
-
-💡 Insights
-High sales ≠ high profit — some products drive revenue but at a loss.
-
-West Region performs best in terms of profit.
-
-Same Day shipping tends to reduce profit margins.
-
-Technology category yields the highest profit overall.
+> “Practice isn’t the thing you do once you’re good. It’s the thing you do that makes you good.” – Malcolm Gladwell
