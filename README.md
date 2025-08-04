@@ -37,6 +37,19 @@ Each week, I challenge myself to complete **1–2 analysis projects**, exploring
 
 ---
 
+### 3. 🎬 IMDb Top Movies EDA
+- Dataset: IMDb Top Movies (CSV)
+- Tools: Pandas, Seaborn, Matplotlib
+- Summary:
+  - Cleaned and preprocessed genre, rating, votes, and revenue data
+  - Explored trends in genres, release years, and vote-rating relationships
+  - Visualized top genres, movie counts by year, and votes vs. rating correlation
+  - Shared key insights from data storytelling
+
+📄 [View Notebook](./imdb-analysis.ipynb)
+
+---
+
 ## 🧰 Tools & Technologies
 
 - Python (Pandas, NumPy)
