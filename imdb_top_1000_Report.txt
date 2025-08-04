@@ -1,0 +1,71 @@
+🎬 IMDb Top Movies: Data Analysis Report
+Project Type: Exploratory Data Analysis (EDA)
+Tools Used: Python, Pandas, Matplotlib, Seaborn
+
+📌 Objective
+This project explores a dataset of top-rated IMDb movies to uncover patterns across genres, release years, popularity (votes), and ratings. The goal is to demonstrate my ability to clean real-world data, perform visual EDA, and draw meaningful insights.
+
+📁 Dataset Overview
+Source: IMDb Top Movies (sample CSV)
+
+Features include:
+
+Series_Title — Movie name
+
+Released_Year — Year of release
+
+Genre — Movie genres (Action, Drama, etc.)
+
+IMDB_Rating — IMDb user rating
+
+Meta_score — Metacritic critic rating
+
+No_of_Votes — Number of IMDb votes
+
+Gross — Revenue in USD (domestic)
+
+🧹 Data Cleaning Steps
+Converted 'Gross' from string to float (removed commas)
+
+Split Genre column into Genre_1, Genre_2, and Genre_3
+
+Stripped white spaces from genre names
+
+Filled missing values in Meta_score with column mean
+
+Ensured numeric datatypes for Gross, No_of_Votes, and Released_Year
+
+Filled nulls in Genre_2 and Genre_3 with "None" for consistency
+
+📊 Exploratory Data Analysis (EDA)
+1️⃣ Most Common Primary Genres
+
+🎭 Drama and Action are the most frequent primary genres among top IMDb movies, followed by Comedy and Crime.
+
+2️⃣ Number of Top Movies by Year
+
+
+🗓️ Certain years like 1994, 2008, and 2019 saw a spike in top-rated movies. Events like the pandemic caused a visible dip in 2020.
+
+3️⃣ Relationship Between Votes and Ratings
+
+
+👍 Movies with more votes often maintain IMDb ratings between 8.0 and 9.0, suggesting a correlation between popularity and positive audience perception.
+
+💡 Key Insights
+Top-rated movies tend to cluster in genres like Drama, Action, and Crime.
+
+The number of high-rated movies fluctuates significantly year to year.
+
+While more votes correlate with higher ratings, many lesser-known films also achieve high IMDb scores.
+
+Revenue data shows that popularity doesn't always equate to commercial success.
+
+✅ Skills Demonstrated
+Real-world data cleaning and preprocessing
+
+Genre-based text manipulation
+
+Exploratory analysis with visual storytelling
+
+Communicating insights with clarity
