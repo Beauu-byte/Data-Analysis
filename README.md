@@ -1,6 +1,5 @@
 # 📊 Data Analysis Projects
 
-Welcome to my personal data analysis portfolio!  
 This repository contains hands-on projects where I explore, analyze, and visualize real-world datasets using Python and data science tools.
 
 ---
